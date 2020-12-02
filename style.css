@@ -1,0 +1,483 @@
+{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 80px;
+    padding-left: 10px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #7fb519!important;
+}
+.navbar
+{
+    background: #4d5744;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #b0dfad!important;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#slider
+{
+    width: 100%;
+}
+{
+    padding: 13px 0;
+    background: url(landscpaevery.jpg);
+    background-size: cover;
+}
+.carousel-item img
+{
+    width: 600px;
+    height: 430px;
+}
+.carousel-caption h5
+{
+    color: #000000;
+    font-weight: 600;
+    font-size: 21px;
+}
+.container h1
+{
+    text-align: left;
+}
+#price
+{
+    padding: 13px 0;
+    background: url(new_landscape_two.JPG);
+    background-size: cover;
+}
+h1
+{
+    color: #1c3414!important;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.single-price
+{
+    margin: 10px auto;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: #1c3414;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.single-price:hover
+{
+    box-shadow: 0 4px 30px #333;
+}
+.price-head
+{
+    background-color: #7fb519;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+.price-head2
+{
+    background-color: #1c3414;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+.price-head h2
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.price-head p
+{
+    font-size: 15px;
+    color: #1c3414;
+    font-weight: bold;
+    line-height: 30px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.price-head2 h2
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.price-head2 p
+{
+    font-size: 15px;
+    color: #b0dfad;
+    font-weight: bold;
+    line-height: 30px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#price span
+{
+    font-size: 15px;
+}
+.price-content
+{
+    display: inline;
+    float: left;
+    width: 100%;
+}
+.price-button1
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 250%);
+    -ms-transform: translate(-50%, -50%);
+}
+.price-button2
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 150%);
+    -ms-transform: translate(-50%, -50%);
+}
+.price-content img
+{ 
+    width: 100%;
+    height: 300px;
+}
+
+.buy-btn
+{
+    background-color: #7fb519;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+.buy-btn:hover
+{
+    border-color: 1px solid #fff;
+    background-color: #719927;
+}
+.buy-btn2
+{
+    background-color: #1c3414;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+.buy-btn2:hover
+{
+    border-color: 1px solid #fff;
+    background-color: #2f631f;
+}
+a
+{
+    text-decoration: none!important;
+    color: #fff!important;
+}
+
+
+
+#christmas-price
+{
+    padding: 20px 0;
+    background: #b0dfad;
+}
+h1
+{
+    color: #1c3414;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.christmas-single-price
+{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.christmas-single-price:hover
+{
+    box-shadow: 0 2px 20px #333;
+}
+
+.christmas-price-head
+{
+    background-color: #1c3414;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+.christmas-price-head h2
+{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.christmas-price-head p
+{
+    font-size: 25px;
+    color: #b0dfad;
+    font-weight: bold;
+    line-height: 30px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#christmas-price span
+{
+    font-size: 15px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.christmas-price-content
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.christmas-price-content-home
+{
+    display: inline;
+    height: 307px;
+    float: left;
+    width: 100%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+    padding: 13px 0;
+    background: url(landscpaevery.jpg);
+}
+.christmas-price-button
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 250%);
+    -ms-transform: translate(-50%, -50%);
+}
+.christmas-price-button
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 240%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.christmas-buy-btn
+{
+    background-color: #1c3414;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+.christmas-buy-btn:hover
+{
+    border-color: 1px solid #fff;
+    background-color: #2f631f;
+}
+a
+{
+    text-decoration: none!important;
+    color: #fff!important;
+}
+
+#contact
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contact
+{
+    position: relative;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(new_hanging.JPG);
+    background-size: cover;
+}
+.content
+{
+    max-width: 800px;
+    text-align: center;
+
+}
+.content h2
+{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1c3414;
+    
+}
+.content p
+{
+    font-weight: 300;
+    color: #1c3414;
+}
+.container1
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.contactInfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.icon
+{
+    min-width: 60px;
+    height: 60px;
+    color: #fff;
+    background: #2f631f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #2f631f;
+    flex-direction: column;
+    font-weight: 300;
+}
+.text h3
+{
+    font-weight: 800;
+    color: #1c3414;
+}
+.contactForm
+{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    border: 2px solid #1c3414;
+}
+.contactForm h2
+{
+    font-size: 30px;
+    color: #1c3414;
+    font-weight: 500;
+}
+.contactForm .inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #1c3414;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+    color: red;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: #b0dfad;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+
+}
