@@ -1,21 +1,22 @@
 {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
 #nav-bar
 {
     position: sticky;
-    top: 0;
+    top: 0%;
     z-index: 10;
 }
 .navbar-brand img
 {
-    height: 80px;
-    padding-left: 10px;
+    max-height: 80px;
+    padding-left: 10%;
 }
 .navbar-nav li
 {
-    padding: 0 20px;
+    display: flex;
+    padding: 0% 10%;
 }
 .navbar-nav li a
 {
@@ -46,14 +47,15 @@
     width: 100%;
 }
 {
-    padding: 13px 0;
+    padding: 0% 0;
     background: url(landscpaevery.jpg);
     background-size: cover;
 }
 .carousel-item img
 {
-    width: 600px;
-    height: 430px;
+    max-width: 600px;
+    max-height: 430px;
+    display: flex;
 }
 .carousel-caption h5
 {
@@ -480,4 +482,30 @@ a
     padding: 10px;
     font-size: 18px;
 
+}
+@media(max-width: 450px)
+{
+    .col-md-3
+    {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .contactInfo, .contactForm
+    {
+        flex: 0 0 100% !important;
+        width: 100% !important;
+    }
+    .contact
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container1
+    {
+        flex-wrap: wrap;
+    }
+}
+img
+{
+    object-fit: cover;
 }
